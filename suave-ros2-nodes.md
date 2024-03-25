@@ -2,6 +2,7 @@
 This documents outlines the ros topics and nodes required for GPS-denied flight
 
 ## Launch RealSense and RTABMaps
+NOTE: `ros2 launch realsense2_camera` will issue a warning "Hardware Notification:Motion Module failure,1.7114e+12,Error,Hardware Error" the first time it launchs, to fix this `ctrl+c` then relaunch it.
 ### Color
 ```
 ros2 launch realsense2_camera rs_launch.py enable_gyro:=true enable_accel:=true unite_imu_method:=1 enable_sync:=true
