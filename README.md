@@ -18,3 +18,19 @@ Setup instructions for SUAVE companion computer
 # Install RTABMaps_ROS
 - https://github.com/introlab/rtabmap_ros/tree/ros2
 - Run example in https://github.com/introlab/rtabmap_ros/blob/ros2/rtabmap_examples/launch/realsense_d435i_infra.launch.py
+
+# Clone suave repos
+```
+cd ~
+mkdir Dev && cd Dev
+git clone https://github.com/patrick4k/suave-controller.git
+git clone https://github.com/patrick4k/suave-ros2_ws.git
+```
+
+# Add dialout permission
+- Add dialout to user
+```
+sudo usermod -a -G dialout $USER
+sudo reboot
+```
+- Verify dialout was applied `groups $USER`
