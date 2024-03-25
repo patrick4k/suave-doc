@@ -47,3 +47,7 @@ sudo usermod -a -G dialout $USER
 sudo reboot
 ```
 - Verify dialout was applied `groups $USER`
+
+## Update connection string
+- Search for PX4 in the serial connections, connection should look like this: `usb-FTDI_FT232R_USB_UART_A10L1BX5-if00-port0`
+- Update connection_string in suave-controller and suave-ros2_ws
