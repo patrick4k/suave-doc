@@ -15,6 +15,6 @@ Setup instructions for SUAVE companion computer
 - https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md
 - After installation, plug in a camera and run `realsense-viewer` and `rs-motion` to ensure data from the camera is being properly streamed through the API
 
-# Install RTAB_Maps_ROS
+# Install RTABMaps_ROS
 - https://github.com/introlab/rtabmap_ros/tree/ros2
 - Run example in https://github.com/introlab/rtabmap_ros/blob/ros2/rtabmap_examples/launch/realsense_d435i_infra.launch.py
