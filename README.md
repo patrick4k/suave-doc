@@ -9,4 +9,4 @@ Setup instructions for SUAVE companion computer
 
 # Install ROS
 - https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debians.html
-
+- Create `ros` alias by adding `alias ros='source /opt/ros/humble/setup.bash'` to `~/.bash_aliases`
