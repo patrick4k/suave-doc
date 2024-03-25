@@ -27,7 +27,8 @@ sudo apt install git
 ## Clone suave repos
 ```
 cd ~
-mkdir Dev && cd Dev
+mkdir Dev
+cd Dev
 git clone https://github.com/patrick4k/suave-controller.git
 git clone https://github.com/patrick4k/suave-ros2_ws.git
 ```
