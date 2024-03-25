@@ -34,6 +34,12 @@ git clone https://github.com/patrick4k/suave-controller.git
 git clone https://github.com/patrick4k/suave-ros2_ws.git
 ```
 
+## Install python dependencies
+```
+sudo apt install python3-pip
+pip install mavsdk
+```
+
 ## Add dialout permission
 - Add dialout to user
 ```
