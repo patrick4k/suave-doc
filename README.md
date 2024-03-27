@@ -4,6 +4,12 @@ Setup instructions for SUAVE companion computer
 ## Flash with ubuntu
 - Use 20.04 LTS
 
+## Update apt
+```
+sudo apt update
+sudo apt upgrade
+```
+
 ## Enable SSH
 - https://ubuntu.com/server/docs/service-openssh
 
