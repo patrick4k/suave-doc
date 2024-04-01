@@ -1,4 +1,4 @@
-# suave-setup
+# panda-setup
 Setup instructions for SUAVE companion computer
 
 ## Flash with ubuntu
