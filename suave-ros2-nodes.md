@@ -42,3 +42,11 @@ cd ~/Dev/suave-ros2_ws
 source ./install/setup.bash
 ros2 run suave_rtabmap rtabmap_listener
 ```
+
+## Suave RTABMap Debugger
+```
+ros
+cd ~/Dev/suave-ros2_ws
+source ./install/setup.bash
+ros2 run suave_debug print_rtab_odom
+```
