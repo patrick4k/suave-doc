@@ -26,6 +26,11 @@ sudo apt upgrade
 - https://github.com/introlab/rtabmap_ros/tree/ros2
 - Run example in https://github.com/introlab/rtabmap_ros/blob/ros2/rtabmap_examples/launch/realsense_d435i_infra.launch.py
 
+## Install PCL
+```
+sudo apt install libpcl-dev
+```
+
 ## Install git
 ```
 sudo apt install git
