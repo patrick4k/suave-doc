@@ -1,6 +1,6 @@
 .cpp
 ```
-std::shared_ptr<mavsdk::System> connectToPX4SITL(mavsdk::Mavsdk& m_mavsdk)
+std::shared_ptr<mavsdk::System> connectToPX4Serial(mavsdk::Mavsdk& m_mavsdk)
 {
     // Connect to the PX4 SITL.
     const std::string connection_string = "/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A10L1BX5-if00-port0";
